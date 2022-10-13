@@ -1,0 +1,9 @@
+# terminals
+terminal-one: cd client yarn && yarn start
+terminal-two: cd server yarn && yarn dev
+terminal-three: echo "we're ready"
+# other config
+browser-link: https://codedamn.com
+run-button: clear && node $$file
+live-reload-browser: false
+tabs: ['README.md']
